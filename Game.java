@@ -105,13 +105,19 @@ class Game {
         Scanner reader = new Scanner(System.in);
         System.out.println("Please input ur choice ");
         int n = reader.nextInt();
+        if (n<3)
+        {
+            System.out.print("Minimum number of players are 3 ");
+        }
 
 
         while (n <= 2 || n >= 5) {
             System.out.println("How many players would you like to play with?");
             Scanner reader2 = new Scanner(System.in);
+
             System.out.println("Enter your choice: ");
             n = reader2.nextInt();
+
         }
         return n + 1;
 
