@@ -5,15 +5,15 @@ class Game {
 
     private static int getUserMenuChoice() {
         Scanner reader = new Scanner(System.in);
-        System.out.println("Enter your choice: ");
+        System.out.println("Please Enter your choice of selection: ");
         int n = reader.nextInt();
         return n;
     }
 
     private static void showMenu() {
-        System.out.println("1. Play the  game.");
-        System.out.println("2. Exit the game.");
-        System.out.println("3. View Instructions for the game.");
+        System.out.println("1. Press (1) to Play the  game.");
+        System.out.println("2. Press (2) to Exit the game.");
+        System.out.println("3. Press (3) to View the Instructions for the game.");
 
     }
 
@@ -94,7 +94,7 @@ class Game {
         } else if (opt == 2){
             System.exit(0);
         } else {
-            System.out.println(" Read the assignment folder doc file ");
+            System.out.println(" Please read assignment 1 document specifications  ");
         }
 
     }
@@ -124,7 +124,7 @@ class Game {
     }
 
 
-    public static void dealCards(STDeck Deck, int numberOfPlayers) {
+    public static void dealCards(SuperTDeck Deck, int numberOfPlayers) {
         System.out.println(Deck);
     }
 
