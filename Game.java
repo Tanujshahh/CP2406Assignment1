@@ -1,3 +1,9 @@
+
+/* https://github.com/Tanujshahh/CP2406Assignment1.git
+    Tanuj Tushar Shah
+    JC 13409858 
+    CP2406 Assignment 1
+*/
 import java.util.Scanner;
 
 
@@ -131,4 +137,6 @@ class Game {
 
 
 }
+
+
 
