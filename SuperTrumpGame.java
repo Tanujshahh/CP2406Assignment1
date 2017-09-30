@@ -8,7 +8,7 @@ class SuperTrumpGame {
     public  int numberPlayers;
     int dealerNumber;
     Player[] players;
-    public STDeck deck;
+    public SuperTDeck deck;
     public String currentAttribute;
     public double attributeHardness;
     public double attributeSpecificGravity;
@@ -27,7 +27,7 @@ class SuperTrumpGame {
 
     SuperTrumpGame(int numberPlayers){
         this.numberPlayers = numberPlayers;
-        this.deck = new STDeck();
+        this.deck = new SuperTDeck();
 
     }
 
@@ -65,7 +65,7 @@ class SuperTrumpGame {
         }
 
         Scanner playerChoice = new Scanner(System.in);
-        System.out.println("Please enter the number of the card ");
+        System.out.println("Please enter the number of specific  card ");
         int CardChoice = Integer.parseInt(playerChoice.next());
         Card chosenCard = players[0].playerHand.get(CardChoice);
         System.out.println("Player 1 has played card: ");
@@ -109,7 +109,7 @@ class SuperTrumpGame {
                     players[0].playerHand.remove(chosenCard);
                 }
                 else {
-                    System.out.println("The Geologist card lets you choose a playing category. Which category would you like to play by?");
+                    System.out.println("The Geologist card lets you choose any playing category in dec. Which category would you like to play by?");
                     System.out.println("1. Hardness" + "\n" + "2. Specific Gravity" + "\n" + "3. Cleavage" + "\n" + "4. Crustal Abundance" + "\n" + "5. Economic Value");
                     int attributeChoice = playerChoice.nextInt();
                     switch (attributeChoice){

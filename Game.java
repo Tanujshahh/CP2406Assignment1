@@ -1,7 +1,7 @@
 
-/* https://github.com/Tanujshahh/CP2406Assignment1.git
+/* https://github.com/Tanujshahh/CP2406Assignment1
     Tanuj Tushar Shah
-    JC 13409858 
+    JC 13409858
     CP2406 Assignment 1
 */
 import java.util.Scanner;
@@ -113,11 +113,11 @@ class Game {
         int n = reader.nextInt();
         if (n<3)
         {
-            System.out.print("Minimum number of players are 3 ");
+            System.out.print("Minimum number of players are 3! ");
         }
 
 
-        while (n <= 2 || n >= 5) {
+        while (n <= 2 || n >=5) {
             System.out.println("How many players would you like to play with?");
             Scanner reader2 = new Scanner(System.in);
 
@@ -125,7 +125,7 @@ class Game {
             n = reader2.nextInt();
 
         }
-        return n + 1;
+        return n ;
 
     }
 
