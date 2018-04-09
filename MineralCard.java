@@ -16,5 +16,4 @@ public class MineralCard extends Card {
                 + " , Cleavage: " + cardCleavage + " , Crustal Abundance: " + cardCrustalAbundance + " , Economic Value: " + cardEconomicValue + "\n";
 
     }
-
 }
