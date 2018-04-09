@@ -3,6 +3,7 @@
     Tanuj Tushar Shah
     JC 13409858
     CP2406 Assignment 1
+    Programming 3
 */
 import java.util.Scanner;
 
@@ -137,6 +138,3 @@ class Game {
 
 
 }
-
-
-
