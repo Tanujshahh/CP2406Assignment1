@@ -8,6 +8,5 @@ public class TrumpCard extends Card{
     public String toString(){
 
         return "Card Name: " + cardTitle + " Category: " + cardEconomicValue + "\n";
-
     }
 }
